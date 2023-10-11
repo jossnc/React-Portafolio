@@ -1,17 +1,40 @@
 
+import React, { useState, useEffect } from "react";
 import "./scrollup.css";
-
 const ScrollUp = () => {
-  window.addEventListener("scroll", function () {
-    const scrollUp = document.querySelector(".scrollup");
-    //cuando el scroll es mayor a 560 del la vista, agrega el show-scroll a la clase con el-scroll tap
-    if (this.scrollY >= 560) scrollUp.classList.add("show-scroll");
-    else scrollUp.classList.remove("show-scroll");
-  })
+  const [showScroll, setShowScroll] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY >= 560) {
+        setShowScroll(true);
+      } else {
+        setShowScroll(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
-    <a href="#" className="scrollup">
-      <i className="uil uil-arrow-up scrollup__icon"></i>
-    </a>
+    <div>
+      {showScroll && (
+        <div className="scrollup" onClick={scrollToTop}>
+          <i className="uil uil-arrow-up scrollup__icon"></i>
+        </div>
+      )}
+    </div>
   );
 };
 

@@ -9,7 +9,7 @@ const Work = () => {
   
   return (
     <div>
-      <section className="work section" id="prtafolio">
+      <section className="work section" id="portafolio">
         <h2 className="section__title">Portafolio</h2>
         <span className="section__subtitle">Most recent works</span>
 

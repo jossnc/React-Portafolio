@@ -12,7 +12,7 @@ const Frontend = () => {
 
             <div>
               <h3 className="skills__name">HTML</h3>
-              <span className="skills_level">Basic</span>
+              <span className="skills_level">Advanced</span>
             </div>
           </div>
 
@@ -32,7 +32,18 @@ const Frontend = () => {
               <span className="skills_level">Intermediate</span>
             </div>
           </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">NextJS</h3>
+              <span className="skills_level">Basic</span>
+            </div>
+          </div>
+
         </div>
+        
 
         <div className="skills__group">
           <div className="skills__data">
@@ -57,10 +68,20 @@ const Frontend = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">React</h3>
+              <h3 className="skills__name">React/Js/Native</h3>
               <span className="skills_level">Intermadiate</span>
             </div>
           </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">Redux</h3>
+              <span className="skills_level">Basic</span>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
