@@ -49,12 +49,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
+                <h3 className="qualification__title">Software Engineer</h3>
                 <span className="qualification__subtitle">
                   Tecnologico de Torreon
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2022 - Present
+                  <i className="uil uil-calendar-alt"></i> 2018 - 2022
                 </div>
               </div>
               <div>
@@ -72,21 +72,21 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">Javascript Certificate</h3>
                 <span className="qualification__subtitle">
-                  Tecnologico de Torreon
+                  FreeCodeCamp
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2022 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2022 
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development</h3>
+                <h3 className="qualification__title">Web Responsive</h3>
                 <span className="qualification__subtitle">
-                  Tecnologico de Torreon
+                  FreeCodeCamp
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2021 - 2022
@@ -107,12 +107,12 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">UX Expert</h3>
+                <h3 className="qualification__title">Programming Expert</h3>
                 <span className="qualification__subtitle">
-                  Tecnologico de Torreon
+                    CBTIS 4
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2020
+                  <i className="uil uil-calendar-alt"></i> 2013 - 2016
                 </div>
               </div>
             </div>
@@ -125,12 +125,12 @@ const Qualification = () => {
             }>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
+                <h3 className="qualification__title">App Developer</h3>
                 <span className="qualification__subtitle">
-                  Lujan Solutions - Mexico
+                  Servicios Publicos Gomez Palacio
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2022 - Present
+                  <i className="uil uil-calendar-alt"></i> 2023 - Present
                 </div>
               </div>
 
@@ -149,12 +149,12 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">UX Designer</h3>
+                <h3 className="qualification__title">Web Developer</h3>
                 <span className="qualification__subtitle">
-                  Free Project - Mexico
+                   Lujan Solutions
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2022 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
                 </div>
               </div>
             </div>
@@ -166,7 +166,7 @@ const Qualification = () => {
                   Free Project - Mexico
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2020
                 </div>
               </div>
 

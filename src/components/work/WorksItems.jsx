@@ -25,7 +25,7 @@ const WorksItems = ({ item }) => {
           <div className="popup-content">
             <img src={item.image} alt="" className="popup__img" />
             <h2>{item.title}</h2>
-            <p>Descripción detallada del proyecto...</p>
+            <p>{item.description}</p>
             <a href={item.git} target="_blank" rel="noopener noreferrer">
               Ver en GitHub
             </a> 
