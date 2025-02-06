@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import "./qualification.css";
 
 const Qualification = () => {
@@ -73,11 +73,9 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">Javascript Certificate</h3>
-                <span className="qualification__subtitle">
-                  FreeCodeCamp
-                </span>
+                <span className="qualification__subtitle">FreeCodeCamp</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2022 
+                  <i className="uil uil-calendar-alt"></i> 2022
                 </div>
               </div>
             </div>
@@ -85,9 +83,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Web Responsive</h3>
-                <span className="qualification__subtitle">
-                  FreeCodeCamp
-                </span>
+                <span className="qualification__subtitle">FreeCodeCamp</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2021 - 2022
                 </div>
@@ -108,9 +104,7 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">Programming Expert</h3>
-                <span className="qualification__subtitle">
-                    CBTIS 4
-                </span>
+                <span className="qualification__subtitle">CBTIS 4</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2013 - 2016
                 </div>
@@ -118,19 +112,41 @@ const Qualification = () => {
             </div>
           </div>
 
-          <div className={
+          <div
+            className={
               toggleState === 2
                 ? "qualification__content qualification__content-active"
                 : "qualification__content"
-            }>
+            }
+          >
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Web Developer</h3>
+                <span className="qualification__subtitle">Lujan Solutions</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
+                </div>
+              </div>
+            </div>
+
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">App Developer</h3>
+                <h3 className="qualification__title">
+                  {" "}
+                  Fronted Developer, App-movil
+                </h3>
                 <span className="qualification__subtitle">
-                  Servicios Publicos Gomez Palacio
+                  Servicios Publicos Gómez Palacio, Dgo
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023 - Present
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2023
                 </div>
               </div>
 
@@ -149,24 +165,24 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Web Developer</h3>
-                <span className="qualification__subtitle">
-                   Lujan Solutions
-                </span>
+                <h3 className="qualification__title">Web/App Developer</h3>
+                <span className="qualification__subtitle">APD</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2023 - 2024
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
+                <h3 className="qualification__title">
+                  Fronted Developer, App-movil
+                </h3>
                 <span className="qualification__subtitle">
-                  Free Project - Mexico
+                  Transporte Condesa
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2020
+                  <i className="uil uil-calendar-alt"></i> 2024 - Actually
                 </div>
               </div>
 
